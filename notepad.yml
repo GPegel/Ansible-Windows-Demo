@@ -1,0 +1,6 @@
+---
+- hosts: Windows Servers OTA
+  vars_files:
+    - "{{ env }}/group_vars/windows.yml"
+  roles:
+    - notepad++
